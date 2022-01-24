@@ -147,7 +147,7 @@ body {
   padding: 10px 0;
   transition: all 0.3s ease-in-out;
 }
-header nav{
+header nav {
   border-top: 1px solid #eeeeee;
 }
 nav li .cat-anchor {
@@ -258,7 +258,7 @@ html[dir="rtl"] .add-to .dropdown-content {
 .search-section {
   width: 60%;
 }
-.search-input{
+.search-input {
   background-color: #eeeeee;
   max-width: 100%;
   width: 100%;
@@ -271,7 +271,7 @@ html[dir="rtl"] .add-to .dropdown-content {
   outline: none;
   transition: all 0.3s ease-in-out;
 }
-.search-input:focus{
+.search-input:focus {
   border: 2px solid var(--main-hover);
   color: #212121;
 }
@@ -316,7 +316,7 @@ html[dir="rtl"] .search-button {
   color: var(--main-color);
   transition: all 0.3s ease-in-out;
 }
-.search-icon{
+.search-icon {
   display: flex;
 }
 .search:hover {
@@ -538,7 +538,7 @@ html[dir="rtl"] .search-button {
   padding: 40px 0;
   margin-bottom: 15px;
 }
-.product-cont{
+.product-cont {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -631,29 +631,29 @@ html[dir="rtl"] .search-button {
   background-color: #bdbdbd;
   transition: all 0.3s ease-in-out;
 }
-.add-to-btn i{
+.add-to-btn i {
   margin-inline-end: 5px;
 }
 .add-to-btn:hover {
   background-color: var(--main-hover);
 }
-.product-section .product-btn{
+.product-section .product-btn {
   position: relative;
-    text-decoration: none;
-    text-transform: capitalize;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 182px;
-    height: 53px;
-    background-color: #444444;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 182px;
+  height: 53px;
+  background-color: #444444;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.product-section .product-btn:hover{
+.product-section .product-btn:hover {
   background-color: var(--main-hover);
 }
 @media (max-width: 991px) {
@@ -663,8 +663,8 @@ html[dir="rtl"] .search-button {
   .product-cont {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-  }  
-  .product-cont .product-btn{
+  }
+  .product-cont .product-btn {
     width: 150px;
     height: 40px;
     font-size: 14px;
@@ -761,7 +761,10 @@ html[dir="rtl"] .search-button {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .add-to-btn{
+  .product-section .product-title {
+    background-size: 40px;
+  }
+  .add-to-btn {
     width: 100%;
     font-size: 14px;
   }
@@ -774,7 +777,6 @@ html[dir="rtl"] .search-button {
   }
   .product-section .product-head {
     font-size: 20px;
-    margin-bottom: 20px;
   }
   .product .product-content {
     padding: 20px 8px 20px;
@@ -1056,7 +1058,7 @@ html[dir="rtl"] .newsletter-button {
   background-color: var(--main-hover);
   color: #fff;
 }
-.cr-cont{
+.cr-cont {
   text-align: center;
 }
 .cr-img {
@@ -1186,7 +1188,7 @@ html[dir="ltr"] .pay-figure {
   }
   .header-icons .lang-section {
     display: none;
-}
+  }
   .navgition .dropdown-content {
     display: none;
     transition: none;
@@ -1233,7 +1235,7 @@ html[dir="ltr"] .pay-figure {
     font-size: 18px;
     padding-top: 2px;
   }
-   .big-menu {
+  .big-menu {
     display: block;
     flex-direction: column;
     text-align: left;
@@ -1308,7 +1310,7 @@ html[dir="ltr"] .pay-figure {
   .header-icons a.add-to {
     margin-inline-end: 0px;
   }
-  .header-icons .add-to .dropdown-content{
+  .header-icons .add-to .dropdown-content {
     top: 58px;
   }
   .show-icons {
@@ -1336,12 +1338,12 @@ html[dir="ltr"] .pay-figure {
     transform: translateX(-50%);
     width: 80%;
     z-index: 99;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   .search-open {
     top: 100px;
   }
-  .header-icons .search{
+  .header-icons .search {
     display: flex;
   }
   /*       header                    */
