@@ -15,26 +15,19 @@ $(document).ready(function () {
       $("body").removeClass("overflow");
     });
     //dropdown inside menu
-    $('.lang-word, .chevron-down').click(function (e) {
-      e.preventDefault()
-      var item =  $(this).siblings(".dropdown-content");
+    $(".lang-word, .chevron-down").click(function (e) {
+      e.preventDefault();
+      var item = $(this).siblings(".dropdown-content");
       item.slideToggle(400);
-      })
-      //This is to Open Search Box
-  $(".header-icons .search").click(function () {
-    $("body").addClass("overflow");
-    $(".search .search-icon").removeClass("open-search");
-    $(".search .search-icon").addClass("close-search");
-    $(".search-section").addClass("search-open");
-    $(".overlay-box2").fadeIn(500);
-  });
-  $(".overlay-box2").click(function () {
-    $("body").removeClass("overflow");
-    $(".search .search-icon").addClass("open-search");
-    $(".search .search-icon").removeClass("close-search");
-    $(".search-section").removeClass("search-open");
-    $(".overlay-box2").fadeOut(500);
-  });
+    });
+    //This is to Open Search Box
+    $(".header-icons .search").click(function () {
+      $("body").toggleClass("overflow");
+      $(".search .search-icon").toggleClass("open-search");
+      $(".search .search-icon").toggleClass("close-search");
+      $(".search-section").toggleClass("search-open");
+    });
+    
   }
   ///////// ** main** /////////
   var specials = new Swiper(".main-slider .swiper-container", {
@@ -95,7 +88,7 @@ $(document).ready(function () {
       },
     },
   });
-  
+
   ////////////////add swiper carsoul to class feature////////////////////////////////
 
   if ($(window).width() < 1199) {
