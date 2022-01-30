@@ -26,8 +26,15 @@ $(document).ready(function () {
       $(".search .search-icon").toggleClass("open-search");
       $(".search .search-icon").toggleClass("close-search");
       $(".search-section").toggleClass("search-open");
+      $(".overlay-box2").fadeIn(500);
     });
-    
+    $(".overlay-box2").click(function () {
+      $("body").removeClass("overflow");
+      $(".search .search-icon").addClass("open-search");
+      $(".search .search-icon").removeClass("close-search");
+      $(".search-section").removeClass("search-open");
+      $(".overlay-box2").fadeOut(500);
+    });
   }
   ///////// ** main** /////////
   var specials = new Swiper(".main-slider .swiper-container", {
