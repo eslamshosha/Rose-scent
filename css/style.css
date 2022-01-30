@@ -325,7 +325,9 @@ html[dir="rtl"] .search-button {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
-
+.close-search{
+  z-index: 99;
+}
 .close-search::after {
   content: "";
   font-family: "Font Awesome 5 Free";
