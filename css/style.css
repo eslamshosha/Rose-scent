@@ -274,7 +274,7 @@ html[dir="rtl"] .add-to .dropdown-content {
 }
 .search-button {
   position: absolute;
-  top: 49%;
+  top: 50%;
   right: 18px;
   transform: translateY(-50%);
   display: -webkit-box;
@@ -1180,6 +1180,9 @@ html[dir="ltr"] .pay-figure {
   }
 }
 @media (max-width: 991px) {
+  header nav {
+    border-top: none;
+  }
   .nav-header {
     padding: 10px 0;
     flex-wrap: wrap;
